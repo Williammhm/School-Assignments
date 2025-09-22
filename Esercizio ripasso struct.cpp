@@ -172,4 +172,66 @@ void ordinamentoRuolo(int nrG, giocatore arr[]){
                 }
             }
         }
+
 }
+
+/*
+
+Gestione di una Squadra Sportiva
+Obiettivo:
+Scrivere un programma in C++ per gestire una squadra sportiva (ad esempio di calcio, basket o pallavolo), utilizzando struct, funzioni, array, ricerca e ordinamento.
+
+Requisiti Tecnici:
+1. Struttura Dati
+Definire una struttura chiamata Giocatore che contenga almeno i seguenti campi:
+
+nome: stringa – il nome del giocatore.
+
+ruolo: stringa – il ruolo del giocatore (es. portiere, difensore, centrocampista, attaccante).
+
+gol: intero – il numero di gol segnati (o punti, se si adatta meglio allo sport scelto).
+
+2. Gestione dell’Array
+Utilizzare un array di tipo Giocatore per rappresentare l’elenco della squadra (massimo 50 giocatori).
+
+Funzionalità Richieste (tramite funzioni separate):
+A. Inserimento giocatori
+Permettere all’utente di inserire i dati di uno o più giocatori.
+
+Validare i dati inseriti (es. nessun valore negativo per i gol).
+
+B. Stampa della squadra
+Visualizzare l’elenco completo dei giocatori con i rispettivi dettagli.
+
+C. Ordinamento per gol segnati
+Ordinare l’array dei giocatori in base al numero di gol segnati (in ordine decrescente).
+
+D. Ricerca per nome
+Permettere all’utente di cercare un giocatore per nome esatto e visualizzare le sue informazioni.
+
+E. Ordinamento per ruolo
+Ordinare i giocatori in ordine alfabetico per ruolo (es. tutti i difensori insieme, poi centrocampisti, ecc.).
+
+Interazione con l’Utente
+Implementare un menu testuale che consenta all’utente di scegliere le operazioni da eseguire:
+
+Inserire un nuovo giocatore
+
+Stampare l’elenco dei giocatori
+
+Ordinare per gol segnati
+
+Cercare un giocatore per nome
+
+Ordinare per ruolo
+
+Uscire dal programma
+
+Vincoli
+Non usare librerie esterne (solo standard C++).
+
+Lavorare esclusivamente con array statici (non usare vector o altri contenitori STL).
+
+Ogni operazione deve essere implementata in una funzione separata.
+
+*/
